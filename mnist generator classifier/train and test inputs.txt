@@ -1,0 +1,9 @@
+Train -
+python train.py --data_dir=classify --rnn_size=64 --num_layers=1 --batch_size=512 --seq_length
+
+
+TensorBoard -
+tensorboard --logdir=logs/
+
+Test - 
+python sample.py -n=25000 >> out.txt
