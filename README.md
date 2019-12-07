@@ -32,6 +32,3 @@ At the very least, right now, you will need TensorFlow installed, and Python of 
 
 ### The World of Generative Model
 > I've personally always really liked generative models. They are relatively quick to train, requiring very little data, but can produce results very similar to the input you fed them. They don't appear to have much practical use as of yet, but you can do fun things with them, like making art, making music and such.
-
-#### **What's known as a Character-Level Generative Neural Network.?** 
-> The "character" part of this just means it'll generate new sequences by using individual characters. In most cases, this is for language like tasks, but this doesn't HAVE to be the case. Let's first check it out with a real language, however. The most simple-to-use implementation that I've seen for a character-level generative model in TensorFlow is the char-rnn-tensorflow project on GitHub from Sherjil Ozair. Just in case things have changed and you want to follow along exactly, the exact commit I am working with is: 401ebfd Go ahead and Grab/clone this package, extract if necessary, and let's see what we've got here.
